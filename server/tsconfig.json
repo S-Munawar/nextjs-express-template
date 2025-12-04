@@ -9,6 +9,11 @@
     /* Emit */
     "outDir": "./dist",                          // Output directory
     "rootDir": "./src",                          // Source directory
+    "baseUrl": "./",                             // Base URL for module resolution
+    "paths":{                                    // Path aliases
+      "@src/*": ["src/*"],
+      "@types/*": ["src/types/*"]
+    },
     "declaration": true,                         // Generate .d.ts files
     "declarationMap": true,                      // Source maps for declarations
     "sourceMap": true,                           // Source maps for debugging
