@@ -7,4 +7,4 @@ services:
   client:
     build: ./client
     ports:
-      - "1000:1000"
+      - "5173:5173"
